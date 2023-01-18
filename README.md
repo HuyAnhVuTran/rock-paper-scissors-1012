@@ -1,8 +1,13 @@
 # Rock Paper Scissor game for EECS 1012
+
 Team Name: Team Indecisive
+
 Group Members:
+
 Huy Anh Vu Tran, huyanhvu@my.yorku.ca, Section A Lab 4
+
 Serif Cetinalp, serif@my.yorku.ca, Section A Lab 4
+
 Lovely Nicole Maranan, lovelym@my.yorku.ca, Section A Lab 4
 
 Project Title & Description: Rock, Paper, Scissors:
