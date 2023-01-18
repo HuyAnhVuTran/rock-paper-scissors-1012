@@ -1,0 +1,98 @@
+
+
+header{
+  text-align: center;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgb(48, 121, 172);
+}
+
+header>h1{
+  color: white;
+  text-align: center;
+}
+
+
+.aroundinstructions{
+  text-align: center;
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 5%;
+
+}
+.instructions {
+  text-align: center;
+  border-style: solid;
+  border-width: 8px;
+  border-color: rgb(48, 121, 172);
+}
+button{
+  block-size: 9%;
+}
+body{
+  background-color:rgb(134, 181, 214) ;
+}
+.score{
+  margin: 20px auto;
+  border: 5px solid white;
+  width:250px;
+  color: red;
+  font-size: 50px;
+  padding: 14px 25px;
+
+}
+
+.output>p{
+  font-size: 35px;
+  color: green;
+}
+.choice{
+  display: inline-block;
+ border-radius: 100%;
+ margin: 20px;
+ padding: 5px;
+ 
+}
+
+.choices{
+  border: 500px;
+  margin: 45px;
+  text-align: center;
+}
+
+.score{
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width:200px;
+  color:white;
+  font-size: 46px;
+  padding: 15px 20px;
+position: relative;
+
+}
+
+#user-label{
+  position:absolute;
+  top:30px;
+  left:-25px;
+}
+
+#computer-label{
+  position:absolute;
+  top:30px;
+  right:-30px;
+}
+.choice:hover{
+  cursor:pointer;
+  background:coral
+}
+
+#message{
+  text-align: center;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size:50px;
+}

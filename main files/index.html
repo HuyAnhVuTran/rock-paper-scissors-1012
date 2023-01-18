@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Phase 3
+  Team Indecisive
+  Authors: Huy Anh Vu Tran, Serif Cetinalp & Lovely Maranan
+  Section a Lab 04
+  For: EECS 1012, Lassonde School of Engineering, York University -->
+  <head>
+	<meta charset="UTF-8">
+	<title> Rock Paper Scissors </title>
+	<link rel="stylesheet" type="text/css" href="rps.css" title="style" />
+	<!--in Ex1 to Ex8, link your html file to your js file, here-->
+	
+</head>
+
+<body>
+  <script>
+    if ('geolocation' in navigator) {
+      console.log('geolocation available');
+      navigator.geolocation.getCurrentPosition(position => {
+      
+        console.log(position);
+    });
+    } else {
+      console.log('geolocation not available');
+      
+    }
+  </script>
+  <header>
+  <h1>
+    Rock, Paper, Scissors
+  </h1>
+</header>
+<div class="aroundinstructions">
+  <div class = "instructions">
+    <h2>How to Play?</h2>
+    <p> -Two players are required in this game </p><br>
+	 <p>-If one player picks rock and one picks scissors, the player showed rock wins the round </p><br>
+	<p> -If one player picks scissor and one picks paper, the player showed scissor wins the round </p><br>
+	<p>-If one player picks paper and one picks rock, the player showed paper wins the round</p>
+  
+
+	<div class="column1">
+      <div class="input"></div>
+        <button onclick="location.href = 'name.html';" id = "name">Play</button>
+        <!--<button onclick="initiate()">Play</button>-->
+        <br/>
+        
+      
+
+      <strong> <p id="output"></p></strong>
+    </div>
+  </div>
+	</div>
+</body>
+<script src="rps.js"></script>

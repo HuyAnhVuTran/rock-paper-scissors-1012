@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Phase 3
+  Team Indecisive
+  Authors: Huy Anh Vu Tran, Serif Cetinalp & Lovely Maranan
+  Section a Lab 04
+  For: EECS 1012, Lassonde School of Engineering, York University -->
+  <head>
+	<meta charset="UTF-8">
+	<title> Rock Paper Scissors </title>
+	<link rel="stylesheet" type="text/css" href="rps.css" title="style" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+</head>
+
+<body>
+  <header>
+  <h1>
+    Rock, Paper, Scissors
+  </h1>
+</header>
+
+
+<div class="score">
+  <div id="user-label" class="badge">user</div>
+  <div id="computer-label" class="badge">bot</div>
+  <span id="user">0</span>:<span id="botr">0</span>
+    
+</div>
+
+<div class="output">
+
+
+</div>
+<!---<script>
+  var userChoice = document.getElementsByClassName("choice");
+var data = [userChoice];
+const stuff = {
+  method: 'POST',
+  headers: {
+    'Content-Type':'application/json'
+  },
+  body: JSON.stringify(data)
+};
+fetch('/api',stuff)
+</script>--->
+<div class="choices">
+      <div class="choice" id="rock">
+          <img src="https://image.shutterstock.com/image-vector/animated-gray-rock-icon-vector-260nw-1966680088.jpg" alt="rock">
+      </div>
+    <div  class="choice" id="scissor">
+        <img src="https://image.shutterstock.com/image-vector/scissors-cartoon-260nw-684331105.jpg" alt="scissor">
+    </div>
+      <div  class="choice" id="paper">
+        <img src="https://image.shutterstock.com/image-vector/two-blank-paper-cartoon-vector-260nw-326072252.jpg" alt="paper">
+    </div>
+  </div>
+
+<p id="message">Make a move</p>
+
+</body>
+<script src="rps.js" charset="utf-8"></script>
+</html>
